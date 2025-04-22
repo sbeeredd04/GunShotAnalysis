@@ -57,4 +57,6 @@ def find_peaks_and_return_details(S, sr, hop_length=512, n_fft=2048, prominence=
         }
         peaks_list.append(peak_info)
 
+
+    #return the frequency
     return peaks_list
